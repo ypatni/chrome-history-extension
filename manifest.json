@@ -1,0 +1,17 @@
+{
+    "name": "History Tracker",
+    "version": "1.0.0",
+    "description": "Enter Description",
+    "manifest_version": 3,
+    "background": {
+        "service_worker" : "background.js"
+      },
+    "permissions": ["history", "storage"],
+    "icons": {
+        "48" : "images/icon_48dp.png"
+    },
+    "action": {
+        "default_popup" :"options.html",
+        "default_icon" : "images/icon_48dp.png"
+    }
+  }
